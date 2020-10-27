@@ -1,3 +1,3 @@
 # ATorontonianGreenBin
 
-Welcome to the trashcan!
+Welcome to my home! Feel free to take whatever you like!
