@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#Boiler Plate for TCP client things.
 
 import socket
 import sys
