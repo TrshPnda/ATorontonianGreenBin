@@ -23,14 +23,14 @@ Thinking of a way to handle different types of logins - 302s, 403s etc
 302 type flows would require a little more thought. Requires conditionals.
 def a different function for webapps with crsf tokens? hm.
 '''    
-    if "" in result.text:
-      print(result.cookies['']) #Session Cookie Name
-      counter += 1
-      return attempts
-      return counter
-    else:
-      pass
-      attempts +=1
+  if "" in result.text:
+    print(result.cookies['']) #Session Cookie Name
+    counter += 1
+    return attempts
+    return counter
+  else:
+    pass
+    attempts +=1
 
 ##Attempting to multi thread###
 
